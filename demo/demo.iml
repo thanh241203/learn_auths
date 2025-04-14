@@ -10,9 +10,6 @@
         </sourceRoots>
       </configuration>
     </facet>
-    <facet type="Spring" name="Spring">
-      <configuration />
-    </facet>
     <facet type="jpa" name="JPA">
       <configuration>
         <setting name="validation-enabled" value="true" />
@@ -22,6 +19,9 @@
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration />
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_15">
@@ -95,7 +95,7 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.17.3" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.17.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.security:spring-security-test:6.3.8" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.security:spring-security-web:6.3.8" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:6.3.8" level="project" />
     <orderEntry type="library" name="Maven: org.postgresql:postgresql:42.7.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.checkerframework:checker-qual:3.42.0" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.36" level="project" />
@@ -132,6 +132,8 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-orm:6.1.18" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:6.1.18" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:6.1.18" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-security:3.3.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.h2database:h2:2.2.224" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-config:6.1.2" level="project" />
   </component>
 </module>
